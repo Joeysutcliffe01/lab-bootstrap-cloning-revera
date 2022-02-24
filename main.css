@@ -1,0 +1,104 @@
+/* .border-red {
+  border: 2px solid red;
+} */
+
+:root {
+  --primary: rgb(231, 68, 39);
+  --footer: rgb(56, 56, 56);
+}
+
+.border-blue {
+  border: 2px solid rgb(0, 47, 255);
+}
+.border-yellow {
+  border: 2px solid rgb(255, 217, 0);
+}
+.border-black {
+  border: 2px solid rgb(0, 0, 0);
+}
+.border-orange {
+  border: 2px solid rgb(255, 123, 0);
+}
+
+#logo {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+#active {
+  color: var(--primary);
+}
+
+#slider {
+  filter: grayscale(1);
+}
+
+.flex-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ex-padding {
+  padding: 3rem;
+}
+
+.icon-styleing {
+  font-size: 1rem;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.primary-color {
+  background-color: var(--primary);
+}
+
+.car-btn-l {
+  background-color: var(--primary);
+  margin-left: auto;
+  margin-bottom: 20rem;
+}
+.car-btn-r {
+  background-color: var(--primary);
+  margin-right: auto;
+  margin-bottom: 20rem;
+}
+
+.sections-one-two {
+  padding: 2rem 0;
+  border-bottom: 2px solid gray;
+}
+
+.section-img {
+  width: 70%;
+}
+
+footer {
+  color: white;
+  background-color: var(--footer);
+  padding: 3rem 0;
+  border-top: 4px solid var(--primary);
+}
+
+.copyright {
+  height: 4rem;
+  color: white;
+  /* margin-left: 3rem; */
+  background-color: rgb(32, 32, 32);
+}
+
+.copyright p {
+  margin-left: 7rem;
+}
+
+/*---------------------------------------------- components */
+.margin-left {
+  margin-left: 12rem;
+}
+
+.margin-t {
+  margin-bottom: 10rem;
+}
